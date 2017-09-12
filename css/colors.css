@@ -1,0 +1,91 @@
+/*colors*/
+.red {
+  color: #B30F2D !important;
+}
+.orange {
+  color: #c15e25 !important;
+}
+.yellow {
+  color: #D1AB1B !important;
+}
+.haki {
+  color: #847532 !important;
+}
+.green {
+  color: #9BAE3B !important;
+}
+.light-blue {
+  color: #00B2BC !important;
+}
+.blue {
+  color: #005C9D !important;
+}
+.purple {
+  color: #653694 !important;
+}
+.pink {
+  color: #BA48BA !important;
+}
+.gray {
+  color: #3e3e3e !important;
+}
+.h-red :hover {
+  color: #B30F2D !important;
+}
+.h-orange :hover {
+  color: #c15e25 !important;
+}
+.h-yellow :hover {
+  color: #D1AB1B !important;
+}
+.h-haki :hover {
+  color: #847532 !important;
+}
+.h-green :hover {
+  color: #9BAE3B !important;
+}
+.h-light-blue :hover {
+  color: #00B2BC !important;
+}
+.h-blue :hover {
+  color: #005C9D !important;
+}
+.h-purple :hover {
+  color: #653694 !important;
+}
+.h-pink :hover {
+  color: #BA48BA !important;
+}
+.h-gray :hover {
+  color: #3e3e3e !important;
+}
+.bg-red {
+  background-color: #B30F2D !important;
+}
+.bg-orange {
+  background-color: #c15e25 !important;
+}
+.bg-yellow {
+  background-color: #D1AB1B !important;
+}
+.bg-haki {
+  background-color: #847532 !important;
+}
+.bg-green {
+  background-color: #9BAE3B !important;
+}
+.bg-light-blue {
+  background-color: #00B2BC !important;
+}
+.bg-blue {
+  background-color: #005C9D !important;
+}
+.bg-purple {
+  background-color: #653694 !important;
+}
+.bg-pink {
+  background-color: #BA48BA !important;
+}
+.bg-gray {
+  background-color: #3e3e3e !important;
+}
