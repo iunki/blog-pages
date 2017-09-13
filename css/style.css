@@ -36,6 +36,12 @@ body {
 .border {
   border: 1px solid #ccc;
 }
+.col-1 {
+  width: 430px;
+}
+.col-2 {
+  width: 875px;
+}
 .header {
   margin-bottom: 20px;
 }
@@ -56,6 +62,37 @@ body {
   display: block;
   padding: 20px 15px;
   font-size: 13px;
+}
+footer {
+  margin-top: 40px;
+  background-color: #333333;
+}
+footer .container {
+  padding: 50px 0;
+}
+footer .container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container ul li a {
+  color: #fff;
+  font-size: 13px;
+  font-family: HelveticaLight, serif;
+  letter-spacing: 1px;
+}
+footer .container ul li a:hover {
+  text-decoration: underline;
+}
+footer .container ul li.yellow-upper {
+  font-size: 37px;
+  color: #F7E225;
+}
+footer .container ul li.yellow-upper span {
+  position: relative;
+  top: -3px;
 }
 .post-w-img {
   position: relative;
@@ -123,13 +160,12 @@ body {
 }
 .top-blocks .block-left {
   float: left;
-  width: 880px;
 }
 .top-blocks .block-left .carousel {
   margin-bottom: 20px;
 }
 .top-blocks .block-left .carousel .main-post {
-  width: 659px;
+  width: 654px;
   height: 417px;
   position: relative;
   float: left;
@@ -151,12 +187,14 @@ body {
 }
 .top-blocks .block-left .posts-by-category {
   font-size: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .top-blocks .block-left .posts-by-category .post-w-img {
-  width: 217px;
-  height: 217px;
+  width: 215px;
+  height: 215px;
   display: inline-block;
-  margin-right: 4px;
   margin-bottom: 4px;
 }
 .top-blocks .block-left .posts-by-category .post-w-img:nth-child(4n) {
@@ -164,7 +202,6 @@ body {
 }
 .top-blocks .block-right {
   float: right;
-  width: 423px;
 }
 .top-blocks .block-right .head {
   background-color: #333333;
@@ -173,8 +210,8 @@ body {
   padding: 10px 15px;
 }
 .top-blocks .block-right .content {
-  height: 840px;
-  min-height: 840px;
+  height: 841px;
+  min-height: 841px;
   padding: 25px 17px;
   background-color: #fff;
   border-right: 1px solid #cccccc;
@@ -220,7 +257,6 @@ body {
   height: 208px;
 }
 .post-card {
-  width: 433px;
   background-color: #fff;
   display: inline-block;
   margin-right: 15px;
@@ -228,7 +264,6 @@ body {
 }
 .post-card:nth-child(2n) {
   margin-right: 0;
-  width: 432px;
 }
 .post-card .post-w-img {
   height: 252px;
@@ -301,7 +336,6 @@ body {
 .block2 .block-left {
   float: left;
   font-size: 0;
-  width: 880px;
 }
 .block2 .block-left .posts {
   border-right: 1px solid #cccccc;
@@ -319,7 +353,6 @@ body {
   float: right;
 }
 .block2 .block-right .post-card {
-  width: 425px;
   margin: 0;
 }
 .block2 .block-right .post-card .popular-main .title a {
@@ -388,18 +421,16 @@ body {
   font-size: 0;
 }
 .block4 .advt {
-  width: 432px;
   height: 290px;
   display: inline-block;
   box-sizing: border-box;
-  margin-right: 12px;
+  margin-right: 15px;
   font-size: 14px;
 }
 .block4 .advt:last-child {
   margin-right: 0;
 }
 .block5 .photo-of-day {
-  width: 875px;
   float: left;
 }
 .block5 .photo-of-day .arrow {
@@ -409,8 +440,12 @@ body {
   width: 100%;
   position: relative;
 }
+.block5 .photo-of-day .post-card .category {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
 .block5 .photo-of-day .post-card img {
-  height: 509px;
+  height: 510px;
   width: 100%;
   object-fit: cover;
   display: block;
@@ -433,12 +468,12 @@ body {
 .block5 .partners {
   float: right;
   background-color: #fff;
-  padding: 43px 17px;
+  padding: 38px 17px;
 }
 .block5 .partners .posts-small .post .post-w-img {
   width: 100px;
   height: 100px;
 }
 .block5 .partners .posts-small .post h1 {
-  width: 296px;
+  width: 294px;
 }
