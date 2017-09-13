@@ -1,13 +1,14 @@
 /*colors*/
-@gray: #3e3e3e;
-@red: #B30F2D;
-@orange: #c15e25;
-@yellow: #D1AB1B;
-@green: #9BAE3B;
-@light-blue: #00B2BC;
-@blue: #005C9D;
-@purple: #653694;
-@pink: #BA48BA;
+@gray: #1b1b1b; //популярное, фото дня
+@red: #B30F2D; //спорт
+@orange: #c15e25; //политика
+@yellow: #D1AB1B; //авто
+@green: #339967; //регионы
+@light-blue: #00B2BC; //казань
+@blue: #648EE2; //экономика
+@dark-blue: #005C9D; //зарубеж
+@purple: #653694; //шоу бизнес
+@pink: #BA48BA; //необычное
 @haki: #847532;
 
 .red {
@@ -36,6 +37,10 @@
 
 .blue {
   color: @blue !important;
+}
+
+.dark-blue {
+  color: @dark-blue !important;
 }
 
 .purple {
@@ -78,6 +83,10 @@
   color: @blue !important;
 }
 
+.h-dark-blue :hover {
+  color: @dark-blue !important;
+}
+
 .h-purple :hover {
   color: @purple !important;
 }
@@ -116,6 +125,10 @@
 
 .bg-blue {
   background-color: @blue !important;
+}
+
+.bg-dark-blue {
+  background-color: @dark-blue !important;
 }
 
 .bg-purple {

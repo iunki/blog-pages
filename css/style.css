@@ -56,12 +56,49 @@ body {
 .header .top-menu ul li {
   text-transform: uppercase;
   display: inline-block;
+  vertical-align: middle;
 }
 .header .top-menu ul li a {
   text-decoration: none;
   display: block;
   padding: 20px 15px;
   font-size: 13px;
+}
+.header .top-menu ul li.weather a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.header .top-menu ul li.social a {
+  padding: 18px 7px;
+}
+.header .top-menu ul li.social a:hover i {
+  background-position-y: 19px;
+}
+.header .top-menu ul li.social a i {
+  content: '';
+  display: block;
+  width: 19px;
+  height: 18px;
+  background-image: url("../img/social-icons.png");
+  background-position-y: 0;
+}
+.header .top-menu ul li.social a i.vk {
+  width: 18px;
+  background-position-x: 0px;
+}
+.header .top-menu ul li.social a i.youtube {
+  background-position-x: -30px;
+}
+.header .top-menu ul li.social a i.telegram {
+  background-position-x: -60px;
+}
+.header .top-menu ul li.social a i.facebook {
+  width: 12px;
+  background-position-x: -90px;
+}
+.header .top-menu ul li.social a i.instagram {
+  width: 14px;
+  background-position-x: -110px;
 }
 footer {
   margin-top: 40px;

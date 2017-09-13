@@ -12,12 +12,15 @@
   color: #847532 !important;
 }
 .green {
-  color: #9BAE3B !important;
+  color: #339967 !important;
 }
 .light-blue {
   color: #00B2BC !important;
 }
 .blue {
+  color: #648EE2 !important;
+}
+.dark-blue {
   color: #005C9D !important;
 }
 .purple {
@@ -27,7 +30,7 @@
   color: #BA48BA !important;
 }
 .gray {
-  color: #3e3e3e !important;
+  color: #1b1b1b !important;
 }
 .h-red :hover {
   color: #B30F2D !important;
@@ -42,12 +45,15 @@
   color: #847532 !important;
 }
 .h-green :hover {
-  color: #9BAE3B !important;
+  color: #339967 !important;
 }
 .h-light-blue :hover {
   color: #00B2BC !important;
 }
 .h-blue :hover {
+  color: #648EE2 !important;
+}
+.h-dark-blue :hover {
   color: #005C9D !important;
 }
 .h-purple :hover {
@@ -57,7 +63,7 @@
   color: #BA48BA !important;
 }
 .h-gray :hover {
-  color: #3e3e3e !important;
+  color: #1b1b1b !important;
 }
 .bg-red {
   background-color: #B30F2D !important;
@@ -72,12 +78,15 @@
   background-color: #847532 !important;
 }
 .bg-green {
-  background-color: #9BAE3B !important;
+  background-color: #339967 !important;
 }
 .bg-light-blue {
   background-color: #00B2BC !important;
 }
 .bg-blue {
+  background-color: #648EE2 !important;
+}
+.bg-dark-blue {
   background-color: #005C9D !important;
 }
 .bg-purple {
@@ -87,5 +96,5 @@
   background-color: #BA48BA !important;
 }
 .bg-gray {
-  background-color: #3e3e3e !important;
+  background-color: #1b1b1b !important;
 }

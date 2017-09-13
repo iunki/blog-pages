@@ -45,11 +45,11 @@ body {
   border: 1px solid #ccc;
 }
 
-.col-1{
+.col-1 {
   width: 430px;
 }
 
-.col-2{
+.col-2 {
   width: 875px;
 }
 
@@ -65,11 +65,52 @@ body {
     ul li {
       text-transform: uppercase;
       display: inline-block;
+      vertical-align: middle;
       a {
         text-decoration: none;
         display: block;
         padding: 20px 15px;
         font-size: 13px;
+      }
+      &.weather {
+        a {
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+      }
+      &.social {
+        a {
+          padding: 18px 7px;
+          &:hover i{
+            background-position-y: 19px;
+          }
+          i {
+            content: '';
+            display: block;
+            width: 19px;
+            height: 18px;
+            background-image: url("../img/social-icons.png");
+            background-position-y: 0;
+            &.vk{
+              width: 18px;
+              background-position-x: 0px;
+            }
+            &.youtube{
+              background-position-x: -30px;
+            }
+            &.telegram{
+              background-position-x: -60px;
+            }
+            &.facebook{
+              width: 12px;
+              background-position-x: -90px;
+            }
+            &.instagram{
+              width: 14px;
+              background-position-x: -110px;
+            }
+          }
+        }
       }
     }
   }
@@ -92,14 +133,14 @@ footer {
           font-size: 13px;
           font-family: HelveticaLight, serif;
           letter-spacing: 1px;
-          &:hover{
+          &:hover {
             text-decoration: underline;
           }
         }
-        &.yellow-upper{
+        &.yellow-upper {
           font-size: 37px;
           color: #F7E225;
-          span{
+          span {
             position: relative;
             top: -3px;
           }
