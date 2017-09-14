@@ -10,16 +10,31 @@
     <link rel="stylesheet" href="css/blurry.load.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/style.css">
 
     <script type="application/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="application/javascript" src="js/search.js"></script>
 
 </head>
 <body>
 <div class="header">
     <div class="top-line">
-        <div class="container">
-            <a href=""><img src="img/kznlive-logo.png" alt=""></a>
+        <div class="container clearfix">
+            <a href="" class="pull-left"><img src="img/kznlive-logo.png" alt=""></a>
+            <div class="search-container pull-right">
+                <div id="sb-search" class="sb-search">
+                        
+                    <form class="clearfix">
+                                <input class="sb-search-input " onkeyup="buttonUp();"
+                                       placeholder="Найти..." onblur="monkey();" type="search" value=""
+                                       name="search" id="search">
+                                <input class="sb-search-submit" type="submit" value="">
+                                <span class="sb-icon-search"></span>
+                            
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
     <nav class="top-menu">
