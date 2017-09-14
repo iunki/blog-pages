@@ -52,6 +52,23 @@ function equalHeight(groupArr) {
     });
 }
 
+function imgIE(){
+    var userAgent, ieReg, ie;
+    userAgent = window.navigator.userAgent;
+    ieReg = /msie|Trident.*rv[ :]*11\./gi;
+    ie = ieReg.test(userAgent);
+
+    if(ie) {
+        $(".img-wrapper").each(function () {
+            var $container = $(this),
+                imgUrl = $container.find("img").prop("src");
+            if (imgUrl) {
+                $container.css("backgroundImage", 'url(' + imgUrl + ')').addClass("custom-object-fit");
+            }
+        });
+    }
+}
+
 $(function () {
     /*window.onscroll = showVisible;*/
     showVisible();
@@ -59,4 +76,5 @@ $(function () {
     //одинаковая высота
     equalHeight([$('#posts1'), $('#posts2'), $('.block2 .top-line .block-right .popular-main .posts')]);
     equalHeight([$('#posts3'), $('#posts4')]);
+    imgIE();
 });
